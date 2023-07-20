@@ -21,9 +21,6 @@ const LoginForm = () => {
     }
   };
 
-  const handleClick = () => {
-  };
-
   return (
     <section id="login-form" className="login-form">
       <h2 className="login-form__header">Login</h2>
@@ -56,7 +53,6 @@ const LoginForm = () => {
           <button
             type="submit"
             className="login-form__create-button"
-            onClick={handleClick}
           >
             Login
           </button>
